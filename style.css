@@ -3,11 +3,13 @@
     padding: 0;
     font-family: sans-serif;
 }
+/*THIS IS THE DESIGN FOR THE MAIN PAGE*/
 .main{
     width: 100%;
     height: 110vh;
     position: relative;
 }
+/*NAVIGATION AND LOGO DESIGN*/
 nav{
     width: 80%;
     position: sticky;
@@ -20,7 +22,7 @@ nav{
     flex-basis: 20%;
 }
 .logo img{
-    width: 150px;
+    width: 190px;
 }
 .nav-links{
     flex: 1;
@@ -35,9 +37,10 @@ nav{
     color: #030000;
     text-decoration: none;
 }
+/*INFORMATION SUBSECTION*/
 .information{
     width: 1000px;
-    height: 1000px;
+    height: 1080px;
     position: absolute;
     top: 50%;
     left: -10%;
@@ -46,36 +49,75 @@ nav{
 #circle{
     width: 1110px;
     height: 1100px;
-    position: absolute;
-    top: -70;
+    position:relative;
+    top: 0;
     left: 0;
     border-radius: 50%;
     background: #ccc;
 }
-.feature img{
+/*SURVEY SUBSECTION*/
+.box img{
     width: 298;
     height: 264;
 }
-.feature{
-    position: absolute;
+.box{
+    position:absolute;
     display: flex;
     color: black;
 }
-.feature div{
+.box div{
     margin-left: 30px;
 }
-.feature div p{
+.box div p{
     margin-top: 8px;
+}
+/*SURVEY 1 DESIGN*/
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
 }
 .survey1{
     top: 180px;
-    right: 235px;
+    left: 350px;
+    text-decoration: none;
+    animation: fadeIn ease-in .5s backwards;
 }
+.survey1:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px whitesmoke;
+}
+/*SURVEY 2 DESIGN*/
 .survey2{
     top: 480px;
     left: 350px;
+    text-decoration: none;
+    animation: fadeIn ease-in .45s backwards;
 }
+.survey2:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px whitesmoke;
+}
+/*SURVEY 3 DESIGN*/
 .survey3{
     top: 780px;
     left: 350px;
+    text-decoration: none;
+    animation: fadeIn ease-in .75s backwards;
+}
+.survey3:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px whitesmoke;
+}
+/*ABOUT SITE SECTION*/
+.siteinfo{
+    display: flex;
+}
+#rect{
+    width: 2120px;
+    height: 100px;
+    position:flex;
+    background: #f2b0b0;
+    text-align: center;
+    font-size: xx-large;
 }
