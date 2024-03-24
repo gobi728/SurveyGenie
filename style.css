@@ -24,6 +24,9 @@ nav{
 .logo img{
     width: 190px;
 }
+.logo:hover{
+    opacity: 0.7;;
+}
 .nav-links{
     flex: 1;
     text-align: right;
@@ -35,6 +38,10 @@ nav{
 }
 .nav-links ul li a{
     color: #030000;
+    text-decoration: none;
+}
+.nav-links ul li a:hover{
+    color: #e24519;
     text-decoration: none;
 }
 /*INFORMATION SUBSECTION*/
