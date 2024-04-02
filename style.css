@@ -91,8 +91,9 @@ nav{
     animation: fadeIn ease-in .5s backwards;
 }
 .survey1:hover{
-    transform: scale(1.1);
-    box-shadow: 0px 0px 15px whitesmoke;
+    transition: transform 150ms;
+    transform: scale(1.03);
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(255, 255, 255);
 }
 /*SURVEY 2 DESIGN*/
 .survey2{
@@ -102,8 +103,9 @@ nav{
     animation: fadeIn ease-in .45s backwards;
 }
 .survey2:hover{
-    transform: scale(1.1);
-    box-shadow: 0px 0px 15px whitesmoke;
+    transition: transform 150ms;
+    transform: scale(1.03);
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(255, 255, 255);
 }
 /*SURVEY 3 DESIGN*/
 .survey3{
@@ -113,8 +115,9 @@ nav{
     animation: fadeIn ease-in .75s backwards;
 }
 .survey3:hover{
-    transform: scale(1.1);
-    box-shadow: 0px 0px 15px whitesmoke;
+    transition: transform 150ms;
+    transform: scale(1.03);
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(255, 255, 255);
 }
 /*ABOUT SITE SECTION*/
 .siteinfo{
