@@ -49,13 +49,13 @@ nav{
     width: 1000px;
     height: 1080px;
     position: absolute;
-    top: 50%;
+    top: 48.5%;
     left: -10%;
     transform: translateY(-50%);
 }
 #circle{
-    width: 1110px;
-    height: 1100px;
+    width: 1200px;
+    height: 1200px;
     position:relative;
     top: 0;
     left: 0;
@@ -69,7 +69,9 @@ nav{
 }
 .box{
     position:absolute;
-    display: flex;
+    display:flex;
+    height: 17rem;
+    width: 45rem;
     color: black;
 }
 .box div{

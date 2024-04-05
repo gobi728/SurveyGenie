@@ -93,12 +93,49 @@ a {
 }
 
 .answer{
-    font-size: 4.2rem;
-    color: aliceblue;
-    margin-bottom: 4rem;
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 3rem;
+    resize: none;
+    cursor:text;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
 }
-
+.progressText{
+    color: aliceblue;
+    font-size: 27pt;
+}
 .submit{
     font-size:45pt;
-    margin-left: 570px;
+    margin-left: 850px;
+    width: 15rem;
+    margin-bottom: 1rem;
+}
+
+#hud{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix{
+    text-align: center;
+}
+
+.hud-main-text{
+    text-align: center;
+}
+
+#progressBar{
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid greenyellow;
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull{
+    height: 100%;
+    background: greenyellow;
+    width: 0%;
 }
